@@ -157,7 +157,6 @@ public class UseCaseImplement {
 
     // （省略）
 
-    this.fetchInterface = new OracleAccess();
     var data = this.fetchInterface.fetch();
 
     // （省略）
